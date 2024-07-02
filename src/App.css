@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  @apply flex flex-col justify-center items-center min-h-screen;
+}
+
 body {
   @apply text-base font-figtree bg-yellow;
 }
